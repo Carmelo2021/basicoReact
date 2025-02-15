@@ -22,7 +22,7 @@ function Caja() {
 function App() {
   return (
     <div className="App">
-
+       <Caja />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -37,7 +37,7 @@ function App() {
           Aprendiendo React
         </a>
       </header>
-      <Caja />
+     
     </div>
 
   );
